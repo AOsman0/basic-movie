@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = require("./routes");
+const routes = require("./src/routes/index");
 const sequelize = require("./config/connection");
 
 // Import model to sync table with database
